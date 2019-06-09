@@ -7,6 +7,8 @@ import os
 from threading import Thread
 import time
 
+heart = True
+
 win = tk.Tk()
 win.title("youtube music downloader for android")
 
