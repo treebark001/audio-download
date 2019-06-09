@@ -7,6 +7,12 @@ import os
 from threading import Thread
 import time
 
+
+'''
+original author:  treebark001@gmail.com
+'''
+
+
 heart = True
 
 win = tk.Tk()
@@ -101,6 +107,6 @@ label_003.grid(column=0, row=11)
 label_004 = ttk.Label(win, text=r" [ ] ")
 label_004.grid(column=0, row=4)
 
-print('\nWelcome to audio downloader!\nKeep this window open to see download the progress')
+print('\nWelcome to audio downloader!\nKeep this window open to see download the progress\nAuthor:  treebark001@gmail.com')
 
 win.mainloop()
